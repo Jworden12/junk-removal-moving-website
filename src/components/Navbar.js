@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          🚚 [YOUR COMPANY NAME]
+          🚚 Zach & Hunter Moving
         </Link>
         <div className={`menu ${menuOpen ? 'active' : ''}`}>
           <Link to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
