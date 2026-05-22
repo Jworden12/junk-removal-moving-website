@@ -41,7 +41,7 @@ function Contact() {
     <main className="page">
       <section className="page-header">
         <h1>Contact Us</h1>
-        <p>Get in touch with us today</p>
+        <p>Get in touch with Zach & Hunter Moving today</p>
       </section>
 
       <section className="contact-section">
@@ -49,32 +49,32 @@ function Contact() {
           <div className="contact-info">
             <div className="info-item">
               <h3>📍 Address</h3>
-              <p>[YOUR ADDRESS HERE]</p>
+              <p>123 Main Street<br />Your City, State 12345</p>
             </div>
             <div className="info-item">
               <h3>📞 Phone</h3>
-              <p>[YOUR PHONE NUMBER HERE]</p>
+              <p>(555) 123-4567</p>
             </div>
             <div className="info-item">
               <h3>✉️ Email</h3>
-              <p>[YOUR EMAIL HERE]</p>
+              <p>info@zachandhuntermoving.com</p>
             </div>
             <div className="info-item">
               <h3>🕐 Hours</h3>
-              <p>Monday - Friday: [TIME RANGE]</p>
-              <p>Saturday: [TIME RANGE]</p>
-              <p>Sunday: [TIME RANGE]</p>
+              <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+              <p>Saturday: 9:00 AM - 5:00 PM</p>
+              <p>Sunday: By Appointment</p>
             </div>
             <div className="info-item">
               <h3>🌐 Service Area</h3>
-              <p>[SERVICE AREA DESCRIPTION]</p>
+              <p>We serve the local area and surrounding regions. Call for availability in your area.</p>
             </div>
           </div>
 
           <div className="contact-form-wrapper">
             {submitted && (
               <div className="success-message">
-                ✓ Thank you for your message! We'll get back to you soon.
+                ✓ Thank you for your message! We'll get back to you within 24 hours.
               </div>
             )}
             
@@ -149,7 +149,8 @@ function Contact() {
       <section className="map-section">
         <h2>Find Us on the Map</h2>
         <div className="map-placeholder">
-          [INSERT GOOGLE MAP OR MAP EMBED HERE]
+          <p>📍 Service Area: Local and surrounding regions</p>
+          <p>We come to you for estimates and service!</p>
         </div>
       </section>
     </main>
